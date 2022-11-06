@@ -1,0 +1,47 @@
+.card-container {
+    display: flex;
+    margin: 2rem;
+    box-shadow: 0 8px 6px -6px #959595;
+    padding-bottom: 1rem;
+}
+
+.country {
+    display: flex;
+    justify-content: space-around;
+}
+
+.country-text {
+    flex: 1 1 auto;
+}
+
+.google-maps {
+    flex: 3 1 auto;
+}
+
+.destination {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image img {
+    max-width: 300px;
+    border-radius: 0.75rem;
+}
+
+@media only screen and (max-width:767px){
+    .card-image img {
+        display: none;
+    }
+}
+
+.card-image {
+    flex: 2 1 auto;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    flex: 3 1 auto;
+}
